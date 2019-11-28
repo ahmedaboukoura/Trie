@@ -249,10 +249,3 @@ Also try the other sample word files. AND, try with word files of your own, form
 Go over the TrieApp code to understand how the Trie methods are called, and how the returned array list from completionList is processed to actually print the completion words. 
 
 
-Submission
-Submit your Trie.java file. 
-
-
-Grading
-The buildTrie method will be graded by comparing the tree structure resulting from your implementation, with the correct tree structure produced by our implementation. We will NOT be looking at the printout of the tree, the print method in the Trie class (used by TrieApp as in the above test examples) is for your convenience only. 
-The completionList method will be graded by inputting prefix strings to some of the trees created in buildTrie. However, these trees will be created by our correct implementation of buildTrie. In other words, to test your completionList implementation, we will NOT use your buildTrie implementation at all. This is fully for your benefit, because if your buildTrie implementation is incorrect, it will not adversely affect the credit you get for your completionList implementation. We will also make sure that the nodes you return belong to the Trie, and not some independent nodes you created outside of the Trie. 
